@@ -13,3 +13,21 @@
 [submodule "Programming-Basics-With-Csharp/01.FirstStepsInCoding-Lab"]
 	path = Programming-Basics-With-Csharp/01.FirstStepsInCoding-Lab
 	url = https://github.com/skider96/01.FirstStepsInCoding-Lab
+[submodule "Programming-Basics-With-Csharp/examPB-csharp"]
+	path = Programming-Basics-With-Csharp/examPB-csharp
+	url = https://github.com/skider96/examPB-csharp
+[submodule "Programming-Basics-With-Csharp/03.Conditional-Statements-Lab"]
+	path = Programming-Basics-With-Csharp/03.Conditional-Statements-Lab
+	url = https://github.com/skider96/03.Conditional-Statements-Lab
+[submodule "Programming-Basics-With-Csharp/03.Conditional-Statements-Exercise"]
+	path = Programming-Basics-With-Csharp/03.Conditional-Statements-Exercise
+	url = https://github.com/skider96/03.Conditional-Statements-Exercise
+[submodule "Programming-Basics-With-Csharp/02.FirstStepsInCoding-Exercise"]
+	path = Programming-Basics-With-Csharp/02.FirstStepsInCoding-Exercise
+	url = https://github.com/skider96/02.FirstStepsInCoding-Exercise
+[submodule "Programming-Basics-With-Csharp/BasicSyntax-ConditionalStatementsAndLoops-Lab"]
+	path = Programming-Basics-With-Csharp/BasicSyntax-ConditionalStatementsAndLoops-Lab
+	url = https://github.com/skider96/BasicSyntax-ConditionalStatementsAndLoops-Lab
+[submodule "Programming-Basics-With-Csharp/BasicSyntaxConditionalStatementsAndLoops-Exercise"]
+	path = Programming-Basics-With-Csharp/BasicSyntaxConditionalStatementsAndLoops-Exercise
+	url = https://github.com/skider96/BasicSyntaxConditionalStatementsAndLoops-Exercise
