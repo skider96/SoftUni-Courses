@@ -7,3 +7,6 @@
 [submodule "Programing-Basics-Witth-Csharp/01.FirstStepsInCoding-Lab"]
 	path = Programing-Basics-Witth-Csharp/01.FirstStepsInCoding-Lab
 	url = https://github.com/skider96/01.FirstStepsInCoding-Lab
+[submodule "Programming-Foundamentals-With-Csharp/12.Exercise-Arrays"]
+	path = Programming-Foundamentals-With-Csharp/12.Exercise-Arrays
+	url = https://github.com/skider96/12.Exercise-Arrays
