@@ -4,3 +4,6 @@
 [submodule "Programing-Basics-Witth-Csharp/examPB-csharp"]
 	path = Programing-Basics-Witth-Csharp/examPB-csharp
 	url = https://github.com/skider96/examPB-csharp
+[submodule "Programing-Basics-Witth-Csharp/01.FirstStepsInCoding-Lab"]
+	path = Programing-Basics-Witth-Csharp/01.FirstStepsInCoding-Lab
+	url = https://github.com/skider96/01.FirstStepsInCoding-Lab
