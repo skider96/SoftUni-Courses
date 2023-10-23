@@ -10,3 +10,6 @@
 [submodule "Programming-Foundamentals-With-Csharp/12.Exercise-Arrays"]
 	path = Programming-Foundamentals-With-Csharp/12.Exercise-Arrays
 	url = https://github.com/skider96/12.Exercise-Arrays
+[submodule "Programming-Basics-With-Csharp/01.FirstStepsInCoding-Lab"]
+	path = Programming-Basics-With-Csharp/01.FirstStepsInCoding-Lab
+	url = https://github.com/skider96/01.FirstStepsInCoding-Lab
