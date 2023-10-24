@@ -31,3 +31,6 @@
 [submodule "Programming-Basics-With-Csharp/BasicSyntaxConditionalStatementsAndLoops-Exercise"]
 	path = Programming-Basics-With-Csharp/BasicSyntaxConditionalStatementsAndLoops-Exercise
 	url = https://github.com/skider96/BasicSyntaxConditionalStatementsAndLoops-Exercise
+[submodule "Programming-Foundamentals-With-Csharp/21.RegularMidExam"]
+	path = Programming-Foundamentals-With-Csharp/21.RegularMidExam
+	url = https://github.com/skider96/21.RegularMidExam
