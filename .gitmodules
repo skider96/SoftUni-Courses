@@ -34,3 +34,12 @@
 [submodule "Programming-Foundamentals-With-Csharp/21.RegularMidExam"]
 	path = Programming-Foundamentals-With-Csharp/21.RegularMidExam
 	url = https://github.com/skider96/21.RegularMidExam
+[submodule "Programming-Foundamentals-With-Csharp/02.ProgrammingFundamentalsMidExam-practice"]
+	path = Programming-Foundamentals-With-Csharp/02.ProgrammingFundamentalsMidExam-practice
+	url = https://github.com/skider96/02.ProgrammingFundamentalsMidExam-practice
+[submodule "Programming-Foundamentals-With-Csharp/18.ExerciseList"]
+	path = Programming-Foundamentals-With-Csharp/18.ExerciseList
+	url = https://github.com/skider96/18.ExerciseList
+[submodule "Programming-Foundamentals-With-Csharp/15.Exercise-Methods"]
+	path = Programming-Foundamentals-With-Csharp/15.Exercise-Methods
+	url = https://github.com/skider96/15.Exercise-Methods
