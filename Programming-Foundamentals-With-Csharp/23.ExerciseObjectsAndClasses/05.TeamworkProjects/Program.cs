@@ -14,8 +14,8 @@ namespace _05.TeamworkProjects
             {
                 string[] input = Console.ReadLine().Split("-");
 
-                string teamName = input[0];
-                string creator = input[1];
+                string creator = input[0];
+                string teamName = input[1];
 
                 Teams team = new Teams(teamName, creator);
                 if (teams.Any(t => t.TeamName == teamName))
@@ -29,9 +29,8 @@ namespace _05.TeamworkProjects
                 else
                 {
                     teams.Add(team);
-                }
-
                 Console.WriteLine($"Team {teamName} has been created by {creator}!");
+                }
             }
 
 
@@ -41,8 +40,8 @@ namespace _05.TeamworkProjects
                 string[] commandSplited = command.Split("->");
                 string member = commandSplited[0];
                 string teamName = commandSplited[1];
-
-                if (teams.Any(t => t.Member.Contains(member)))
+                Teams team = teams.FirstOrDefault(t => t.TeamName == teamName);
+                if (teams.Any(t => t.Member.Contains(member)) || teams.Any(t => t.Creator == member))
                 {
                     Console.WriteLine($"Member {member} cannot join team {teamName}!");
                 }
@@ -51,11 +50,31 @@ namespace _05.TeamworkProjects
                     Console.WriteLine($"Team {teamName} does not exist!");
                 }
                 else
-                {
-                    
+                { 
+                    team.Member.Add(member);
                 }
-                
-           
+            }
+            List<Teams> disbandedTeamsList = teams.Where(t => t.Member.Count == 0)
+                .ToList();
+            teams = teams.Where(t => t.Member.Count > 0)
+                .ToList();
+
+            teams = teams.OrderByDescending(t => t.Member.Count)
+                .ThenBy(t => t.TeamName)
+                .ToList();
+
+            disbandedTeamsList = disbandedTeamsList.OrderBy(t => t.TeamName).ToList();
+
+
+            foreach (var team in teams)
+            {
+                Console.WriteLine($"${team.TeamName}\n- {team.Creator}\n-- {team.Member}…");
+            }
+
+            foreach (var team in disbandedTeamsList)
+            {
+                Console.WriteLine("Teams to disband:");
+                Console.WriteLine($"{string.Join($"{team.TeamName}\n",disbandedTeamsList )}");
             }
         }
     }
