@@ -4,25 +4,25 @@
     {
         static void Main(string[] args)
         {
-            string[] input = Console.ReadLine()
-                .Split(", ")
-                .ToArray();
-            
-            string title = input[0];
-            string content = input[1];
-            string author = input[2];
-
-            Article myArticle = new Article(title, content, author);
-
             int n = int.Parse(Console.ReadLine());
+            
+           List<Article> myArticleList = new List<Article>();
             
             for (int i = 0; i < n; i++)
             {
-                string[] secondInput = Console.ReadLine().Split(": ");
-               
+                string[] inputBreaking = Console.ReadLine().Split(", ");
+                string title = inputBreaking[0];
+                string content = inputBreaking[1];
+                string author = inputBreaking[2];
+                
+                myArticleList.Add(new Article(title, content, author));
             }
+        
 
-            Console.WriteLine(myArticle);
+            foreach (Article article in myArticleList)
+            {
+                   System.Console.WriteLine(article);               
+            }
         }
 
     }
@@ -35,6 +35,7 @@
 
         public string Author { get; set; }
 
+       
         public Article(string title, string content, string author)
         {
             Title = title;

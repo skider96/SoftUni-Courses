@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\skide\\source\\repos\\23.ExerciseObjectsAndClasses\\03.Articles2.0\\03.Articles2.0.csproj",
+      "projectUniqueName": "C:\\Users\\skide\\OneDrive\\Documents\\GitHub\\SoftUni-Courses\\SoftUni-Courses\\Programming-Foundamentals-With-Csharp\\23.ExerciseObjectsAndClasses\\03.Articles2.0\\03.Articles2.0.csproj",
       "projectName": "03.Articles2.0",
-      "projectPath": "C:\\Users\\skide\\source\\repos\\23.ExerciseObjectsAndClasses\\03.Articles2.0\\03.Articles2.0.csproj",
+      "projectPath": "C:\\Users\\skide\\OneDrive\\Documents\\GitHub\\SoftUni-Courses\\SoftUni-Courses\\Programming-Foundamentals-With-Csharp\\23.ExerciseObjectsAndClasses\\03.Articles2.0\\03.Articles2.0.csproj",
       "packagesPath": "C:\\Users\\skide\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\skide\\source\\repos\\23.ExerciseObjectsAndClasses\\03.Articles2.0\\obj\\",
+      "outputPath": "C:\\Users\\skide\\OneDrive\\Documents\\GitHub\\SoftUni-Courses\\SoftUni-Courses\\Programming-Foundamentals-With-Csharp\\23.ExerciseObjectsAndClasses\\03.Articles2.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\skide\\AppData\\Roaming\\NuGet\\NuGet.Config",
