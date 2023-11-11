@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skide\\source\\repos\\23.ExerciseObjectsAndClasses\\04.Students\\04.Students.csproj": {}
+    "C:\\Users\\skide\\OneDrive\\Documents\\GitHub\\SoftUni-Courses\\SoftUni-Courses\\Programming-Foundamentals-With-Csharp\\23.ExerciseObjectsAndClasses\\04.Students\\04.Students.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skide\\source\\repos\\23.ExerciseObjectsAndClasses\\04.Students\\04.Students.csproj": {
+    "C:\\Users\\skide\\OneDrive\\Documents\\GitHub\\SoftUni-Courses\\SoftUni-Courses\\Programming-Foundamentals-With-Csharp\\23.ExerciseObjectsAndClasses\\04.Students\\04.Students.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skide\\source\\repos\\23.ExerciseObjectsAndClasses\\04.Students\\04.Students.csproj",
+        "projectUniqueName": "C:\\Users\\skide\\OneDrive\\Documents\\GitHub\\SoftUni-Courses\\SoftUni-Courses\\Programming-Foundamentals-With-Csharp\\23.ExerciseObjectsAndClasses\\04.Students\\04.Students.csproj",
         "projectName": "04.Students",
-        "projectPath": "C:\\Users\\skide\\source\\repos\\23.ExerciseObjectsAndClasses\\04.Students\\04.Students.csproj",
+        "projectPath": "C:\\Users\\skide\\OneDrive\\Documents\\GitHub\\SoftUni-Courses\\SoftUni-Courses\\Programming-Foundamentals-With-Csharp\\23.ExerciseObjectsAndClasses\\04.Students\\04.Students.csproj",
         "packagesPath": "C:\\Users\\skide\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skide\\source\\repos\\23.ExerciseObjectsAndClasses\\04.Students\\obj\\",
+        "outputPath": "C:\\Users\\skide\\OneDrive\\Documents\\GitHub\\SoftUni-Courses\\SoftUni-Courses\\Programming-Foundamentals-With-Csharp\\23.ExerciseObjectsAndClasses\\04.Students\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\skide\\AppData\\Roaming\\NuGet\\NuGet.Config",
