@@ -39,17 +39,37 @@ namespace _06.VehicleCatalogue
                 }
             }
 
-            int cars = cars.Where(c => c.TypeOfVehicle == "car");
-            
+            var carsTypeAppearance = cars.Where(c => c.TypeOfVehicle == "Car");
+            var carAppearance = carsTypeAppearance.Count();
+            if (!cars.Any(c => c.TypeOfVehicle == "Car"))
+            {
+                carAppearance = 0;
+            }
+            var truckTypeAppearance = cars.Where(c => c.TypeOfVehicle == "Truck");
+            int truckAppearance = truckTypeAppearance.Count();
+            if (!cars.Any(c => c.TypeOfVehicle == "Truck"))
+            {
+                truckAppearance = 0;
+            }
+            double carAvHp = carsTypeAppearance.Sum(c => c.Horsepower);
+            double truckAvHp = truckTypeAppearance.Sum(t => t.Horsepower);
+            // "{typeOfVehicles} have average horsepower of {averageHorsepower}."
+            if (carAppearance == 0)
+            {
+                Console.WriteLine($"Trucks have average horsepower of: {(truckAvHp / truckAppearance):f2}.");
 
+            }
+            else if (truckAppearance == 0)
+            {
 
+                Console.WriteLine($"Cars have average horsepower of: {(carAvHp / carAppearance):f2}.");
+            }
+            else
+            {
+                Console.WriteLine($"Cars have average horsepower of: {(carAvHp / carAppearance):f2}.");
+                Console.WriteLine($"Trucks have average horsepower of: {(truckAvHp / truckAppearance):f2}.");
 
-            /*
-            format: "{typeOfVehicles} have average horsepower of {averageHorsepower}."
-               The average horsepower is calculated by dividing
-            the sum of the horsepower of all vehicles of the given type by
-               the total count of all vehicles from that type.
-            Format the answer to the second digit after the decimal point.*/
+            }
         }
     }
 
