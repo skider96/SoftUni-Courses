@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CountCharsInAString", "01.CountCharsInAString\01.CountCharsInAString.csproj", "{41DD286C-3E33-4F5A-A9C7-C558A1564FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AMinerTask", "02.AMinerTask\02.AMinerTask.csproj", "{58688158-2BF4-4AB7-B477-4BED781922E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41DD286C-3E33-4F5A-A9C7-C558A1564FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DD286C-3E33-4F5A-A9C7-C558A1564FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DD286C-3E33-4F5A-A9C7-C558A1564FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DD286C-3E33-4F5A-A9C7-C558A1564FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58688158-2BF4-4AB7-B477-4BED781922E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58688158-2BF4-4AB7-B477-4BED781922E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58688158-2BF4-4AB7-B477-4BED781922E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58688158-2BF4-4AB7-B477-4BED781922E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4A015D9-73A7-4970-A28E-B461E826C610}
+	EndGlobalSection
+EndGlobal
