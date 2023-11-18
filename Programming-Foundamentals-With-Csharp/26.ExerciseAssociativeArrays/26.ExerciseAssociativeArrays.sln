@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CountCharsInAString", "01.CountCharsInAString\01.CountCharsInAString.csproj", "{41DD286C-3E33-4F5A-A9C7-C558A1564FAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.CountCharsInAString", "01.CountCharsInAString\01.CountCharsInAString.csproj", "{41DD286C-3E33-4F5A-A9C7-C558A1564FAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AMinerTask", "02.AMinerTask\02.AMinerTask.csproj", "{58688158-2BF4-4AB7-B477-4BED781922E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.AMinerTask", "02.AMinerTask\02.AMinerTask.csproj", "{58688158-2BF4-4AB7-B477-4BED781922E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Orders", "03.Orders\03.Orders.csproj", "{4D27E303-BCEF-4E4F-8849-8ED9C5D6D791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{58688158-2BF4-4AB7-B477-4BED781922E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58688158-2BF4-4AB7-B477-4BED781922E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58688158-2BF4-4AB7-B477-4BED781922E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D27E303-BCEF-4E4F-8849-8ED9C5D6D791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D27E303-BCEF-4E4F-8849-8ED9C5D6D791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D27E303-BCEF-4E4F-8849-8ED9C5D6D791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D27E303-BCEF-4E4F-8849-8ED9C5D6D791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
