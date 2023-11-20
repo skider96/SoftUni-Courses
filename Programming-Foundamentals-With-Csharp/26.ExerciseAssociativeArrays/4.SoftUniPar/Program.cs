@@ -18,8 +18,6 @@
                 {
                     string licensePlate = arguments[2];
                 }
-
-                string something = 'hui';
             }
         }
     }
@@ -34,6 +32,5 @@
             UserName = userName;
             LicensePlate = licensePlate;
         }
-
     }
 }
