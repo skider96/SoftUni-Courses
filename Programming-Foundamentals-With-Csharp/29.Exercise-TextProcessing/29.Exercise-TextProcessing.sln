@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.ValidUsernames", "1.ValidUsernames\1.ValidUsernames.csproj", "{BC27AF23-1CA7-4E15-B3A7-AB571CBE1BED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ValidUsernames", "1.ValidUsernames\01.ValidUsernames.csproj", "{BC27AF23-1CA7-4E15-B3A7-AB571CBE1BED}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CharacterMultiplier", "..\..\..\..\..\..\..\source\repos\02.CharacterMultiplier\02.CharacterMultiplier.csproj", "{878F2E35-0EBF-4F97-82B8-0C4C087ED60C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.ExtractFile", "3.ExtractFile\03.ExtractFile.csproj", "{13F77C1E-ED8F-4B5A-9179-96C9EA8DF99C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{878F2E35-0EBF-4F97-82B8-0C4C087ED60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{878F2E35-0EBF-4F97-82B8-0C4C087ED60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{878F2E35-0EBF-4F97-82B8-0C4C087ED60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F77C1E-ED8F-4B5A-9179-96C9EA8DF99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F77C1E-ED8F-4B5A-9179-96C9EA8DF99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F77C1E-ED8F-4B5A-9179-96C9EA8DF99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F77C1E-ED8F-4B5A-9179-96C9EA8DF99C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
