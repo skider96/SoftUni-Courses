@@ -6,6 +6,7 @@
 // separated by a single space.
 
 function topInteger(array){
+   let int = 0;
 for (let i = 0; i < array.length; i++){
 for (let index = 0; index < array.length; index++) {
    if(array[i] > array[j]){
