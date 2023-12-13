@@ -5,3 +5,14 @@
 //Print all top integers on the console,
 // separated by a single space.
 
+function topInteger(array){
+
+for (let i = 0; i < array.length; i++){
+for (let index = 0; index < array.length; index++) {
+    
+}
+
+}
+}
+
+console.log()
