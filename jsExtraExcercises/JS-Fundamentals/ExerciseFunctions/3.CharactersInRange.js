@@ -1,17 +1,11 @@
-// Write a function that receives two characters and 
-// prints on a single line all the characters in between
-// them according to the ASCII code. Keep in mind that 
-//the second character code might be before the first
-// one inside the ASCII table.
-
 function charsInRange(firstChar, secondChar) {
-int
-    let firstNumber = String.charCodeAt(firstChar);
-    
-    for (let i= firstChar ; i <= secondChar ; i++) {
-        
+    let firstNumber = firstChar.charCodeAt(0);
+    let secondNumber = secondChar.charCodeAt(0);
 
+    for (let i = firstNumber + 1; i < secondNumber; i++) {
+        console.log(String.fromCharCode(i));
     }
 }
-charsInRange()
+
+charsInRange('a', 'd')
 

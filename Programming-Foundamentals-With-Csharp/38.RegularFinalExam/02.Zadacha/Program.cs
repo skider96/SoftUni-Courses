@@ -7,7 +7,7 @@ namespace _02.Zadacha
         static void Main(string[] args)
         {
             int lines = int.Parse(Console.ReadLine());
-            string pattern = @"(?<dolar>^\$|^\%)(?<tag>[A-z}[a-z][a-z]*)\1: \[(?<firstNumber>\d*)]\|\[(?<secondNumber>\d*)]\|\[(?<thirdNumber>\d*)]\|$";
+            string pattern = @"^(?<dolar>^\$|^\%)(?<tag>[A-z][a-z]{2,})\1: \[(?<firstNumber>\d*)]\|\[(?<secondNumber>\d*)]\|\[(?<thirdNumber>\d*)]\|$";
 
             
             Regex regex = new Regex(pattern);
@@ -17,7 +17,6 @@ namespace _02.Zadacha
                 Match match = regex.Match(input);
                 if (match.Success)
                 {
-                    //
                     int[] numChars = new int[3];
                     Group group = match.Groups[3];
                     numChars[0] = int.Parse(group.Value);
