@@ -46,6 +46,12 @@
                     Console.Write($"{kvp.Key} ");
                 }
             }
+=======
+            string name = "George";
+            name[2] = "m";
+            System.Console.WriteLine(name[2]);
+
+>>>>>>> Stashed changes
         }
     }
 }
