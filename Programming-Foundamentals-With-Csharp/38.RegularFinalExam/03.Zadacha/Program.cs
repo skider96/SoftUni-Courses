@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+<<<<<<< Updated upstream
             string[] firstLine = Console.ReadLine().Split(" | ");
             string[] secondLine = Console.ReadLine().Split(" | ");
             string thirdLine = Console.ReadLine();
