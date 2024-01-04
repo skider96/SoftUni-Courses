@@ -4,29 +4,28 @@
     {
         static void Main(string[] args)
         {
-            Stack<int> stack = new();
+            Queue<int> queue = new();
             string[] input = Console.ReadLine().Split().ToArray();
 
-            int nToPush = int.Parse(input[0]);
-            int nToPop = int.Parse(input[1]);
+            int nToEnqueue = int.Parse(input[0]);
+            int nToDequeue = int.Parse(input[1]);
             int nToLook = int.Parse(input[2]);
 
-
-            int[] numbersFromConsole = new int[nToPush];
+            int[] numbersFromConsole = new int[nToEnqueue];
 
             string[] secondInput = Console.ReadLine().Split().ToArray();
-            for (int i = 0; i < nToPush; i++)
+            for (int i = 0; i < nToEnqueue; i++)
             {
-                stack.Push(int.Parse(secondInput[i]));
+                queue.Enqueue(int.Parse(secondInput[i]));
             }
 
-            for (int i = 0; i < nToPop; i++)
+            for (int i = 0; i < nToDequeue; i++)
             {
-                stack.Pop();
+                queue.Dequeue();
             }
 
-            bool found = stack.Contains(nToLook);
-            if (stack.Any())
+            bool found = queue.Contains(nToLook);
+            if (queue.Any())
             {
                 if (found)
                 {
@@ -34,7 +33,7 @@
                 }
                 else
                 {
-                    Console.WriteLine(stack.Min());
+                    Console.WriteLine(queue.Min());
                 }
 
             }
@@ -42,4 +41,3 @@
         }
     }
 }
-// not solved

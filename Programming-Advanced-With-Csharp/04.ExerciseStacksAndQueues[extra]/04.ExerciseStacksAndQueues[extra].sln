@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34321.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.BasicStackOperations", "04.ExerciseStacksAndQueues[extra]\01.BasicStackOperations.csproj", "{D3F06EDE-1705-4204-AD08-31B56F9656A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.BasicQueueOperations", "02.BasicQueueOperations\02.BasicQueueOperations.csproj", "{E9F0AE85-D417-4CFA-B0DB-2B5064051372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BasicQueueOperations", "02.BasicQueueOperations\02.BasicQueueOperations.csproj", "{E9F0AE85-D417-4CFA-B0DB-2B5064051372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.BasicStackOperations", "01.BasicStackOperations\01.BasicStackOperations.csproj", "{1348C162-8167-434E-80DC-A98DE67BC2D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D3F06EDE-1705-4204-AD08-31B56F9656A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3F06EDE-1705-4204-AD08-31B56F9656A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3F06EDE-1705-4204-AD08-31B56F9656A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3F06EDE-1705-4204-AD08-31B56F9656A6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E9F0AE85-D417-4CFA-B0DB-2B5064051372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E9F0AE85-D417-4CFA-B0DB-2B5064051372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9F0AE85-D417-4CFA-B0DB-2B5064051372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9F0AE85-D417-4CFA-B0DB-2B5064051372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1348C162-8167-434E-80DC-A98DE67BC2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1348C162-8167-434E-80DC-A98DE67BC2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1348C162-8167-434E-80DC-A98DE67BC2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1348C162-8167-434E-80DC-A98DE67BC2D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,6 @@ namespace _04.ExerciseStacksAndQueues_extra_
             int nToPop = int.Parse(input[1]);
             int nToLook = int.Parse(input[2]);
 
-
             int[] numbersFromConsole = new int[nToPush];
 
             string[] secondInput = Console.ReadLine().Split().ToArray();
