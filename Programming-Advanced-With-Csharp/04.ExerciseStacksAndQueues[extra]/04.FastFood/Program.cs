@@ -7,7 +7,6 @@
 
             int quantityFood = int.Parse(Console.ReadLine());
 
-
             int[] sequenceOfOrders = Console.ReadLine().Split().Select(int.Parse).ToArray();
             var queue = new Queue<int>(sequenceOfOrders);
 
@@ -22,7 +21,6 @@
                 }
             }
 
-
             if (queue.Any())
             {
                 Console.WriteLine($"Orders left: {string.Join(' ', queue)}");
@@ -34,6 +32,4 @@
         }
     }
 }
-
-
 // It gets only 60% correct...
