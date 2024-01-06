@@ -20,7 +20,6 @@ namespace _06.Song
                 else if (commands[0] == "Add")
                 {
                     string[] array = commands[1..];
-
                     string str = string.Join(' ', array);
 
                     if (songs.Contains(str))
