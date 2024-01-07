@@ -1,4 +1,4 @@
-﻿namespace _07.Truc
+﻿namespace _07.TruckTour
 {
     internal class Program
     {

@@ -1,4 +1,4 @@
-﻿namespace _3.MaxAn
+﻿namespace _3.MaximumAndMinimumElement
 {
     internal class Program
     {

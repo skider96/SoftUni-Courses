@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace _04.ExerciseStacksAndQueues_extra_
+namespace _01.BasicStackOperations
 {
     internal class Program
     {

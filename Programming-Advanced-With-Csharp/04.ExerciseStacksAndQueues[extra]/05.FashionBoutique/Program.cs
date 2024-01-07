@@ -1,7 +1,7 @@
 ﻿using System.Data.Common;
 using System.Diagnostics.CodeAnalysis;
 
-namespace _05.Fash
+namespace _05.FashionBoutique
 {
     internal class Program
     {

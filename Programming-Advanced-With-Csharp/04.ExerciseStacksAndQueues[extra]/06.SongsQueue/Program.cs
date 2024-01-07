@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.Design;
 
-namespace _06.Song
+namespace _06.SongQueue
 {
     internal class Program
     {
