@@ -12,7 +12,6 @@ namespace _02.SquaresInMatrix
 
             char[][] matrix = new char[sizeRows][];
 
-
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
                 char[] inputChars = Console.ReadLine().Split().Select(char.Parse).ToArray();
@@ -24,41 +23,27 @@ namespace _02.SquaresInMatrix
                 }
             }
 
-            char firstCapture = Char.MinValue;
-            char secondCapture = Char.MinValue;
             int counter = 0;
-            int match = 0;
+            char topLeft = Char.MinValue; char topRight = Char.MinValue; char bottomLeft = Char.MinValue; char bottomRight = Char.MinValue;
 
-            Dictionary<int, List<int>> matches = new Dictionary<int, List<int>>();
-            List<int> positions = new List<int>();
-            for (int row = 0; row < matrix.GetLength(0); row++)
+            for (int row = 0; row < matrix.GetLength(0) - 1; row++)
             {
-               
                 for (int col = 0; col < sizeCol - 1; col++)
                 {
-                    firstCapture = matrix[row][col];
-                    secondCapture = matrix[row][col + 1];
-                    if (firstCapture == secondCapture)
+                    topLeft = matrix[row][col];
+                    topRight = matrix[row][col + 1];
+                    bottomLeft = matrix[row + 1][col];
+                    bottomRight = matrix[row + 1][col + 1];
+
+                    if (topLeft == topRight && topLeft == bottomLeft && topLeft == bottomRight)
                     {
-                        positions.Add(col);
-                        positions.Add(col + 1);
-                        if (!matches.ContainsKey(row))
-                        {
-                            matches.Add(row, positions);
-                        }
-                        //else
-                        //{
-                        //    matches[row].Add(col);
-                        //    matches[row].Add(col + 1);
-                        //}
+                        counter++;
                     }
-
                 }
-
-
             }
 
-
+            Console.WriteLine(counter);
         }
     }
 }
+//Solved but with 80% at Judge...
