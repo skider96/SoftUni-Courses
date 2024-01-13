@@ -5,23 +5,21 @@ VisualStudioVersion = 17.9.34407.89
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DiagonalDifference", "01.DiagonalDifference\01.DiagonalDifference.csproj", "{E6D9E232-9CD5-4983-8B48-48EAECC8D32E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SquaresInMatrix", "02.SquaresInMatrix\02.SquaresInMatrix.csproj", "{F8C24D0D-CEC1-4AC8-A1CF-0F42FCD45422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SquaresInMatrix", "02.SquaresInMatrix\02.SquaresInMatrix.csproj", "{F8C24D0D-CEC1-4AC8-A1CF-0F42FCD45422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MaximalSum", "03.MaximalSum\03.MaximalSum.csproj", "{5DE505FE-EE53-4D3D-A2D2-5883893C2A21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MaximalSum", "03.MaximalSum\03.MaximalSum.csproj", "{5DE505FE-EE53-4D3D-A2D2-5883893C2A21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MatrixShuffling", "04.MatrixShuffling\04.MatrixShuffling.csproj", "{A5F24E4A-8412-407D-B85F-A4A60012C061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MatrixShuffling", "04.MatrixShuffling\04.MatrixShuffling.csproj", "{A5F24E4A-8412-407D-B85F-A4A60012C061}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SnakeMoves", "05.SnakeMoves\05.SnakeMoves.csproj", "{819569A2-C97E-43DD-93BE-FB30B3EC918F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SnakeMoves", "05.SnakeMoves\05.SnakeMoves.csproj", "{819569A2-C97E-43DD-93BE-FB30B3EC918F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.JaggedArrayManipulator", "06.JaggedArrayManipulator\06.JaggedArrayManipulator.csproj", "{220BF5D7-0225-4037-BCA3-987A3BB63504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.JaggedArrayManipulator", "06.JaggedArrayManipulator\06.JaggedArrayManipulator.csproj", "{220BF5D7-0225-4037-BCA3-987A3BB63504}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.KnightGame", "07.KnightGame\07.KnightGame.csproj", "{F36B56B5-B5C9-40A7-BD32-1F56DAC4AFE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.KnightGame", "07.KnightGame\07.KnightGame.csproj", "{F36B56B5-B5C9-40A7-BD32-1F56DAC4AFE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Bombs [extra]", "08.Bombs [extra]\08.Bombs [extra].csproj", "{5EA1267D-7064-44A2-B56C-CA5F7F1F11C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Bombs [extra]", "08.Bombs [extra]\08.Bombs [extra].csproj", "{5EA1267D-7064-44A2-B56C-CA5F7F1F11C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Miner [extra]", "09.Miner [extra]\09.Miner [extra].csproj", "{CCBE7C36-F832-4008-B2BB-3C0F03B39DD4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.RadioactiveMutantVampireBunnies [extra]", "10.RadioactiveMutantVampireBunnies [extra]\10.RadioactiveMutantVampireBunnies [extra].csproj", "{223BEF8E-04F7-4568-AE9B-AD38EA455037}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.Miner [extra]", "09.Miner [extra]\09.Miner [extra].csproj", "{CCBE7C36-F832-4008-B2BB-3C0F03B39DD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,10 +63,6 @@ Global
 		{CCBE7C36-F832-4008-B2BB-3C0F03B39DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCBE7C36-F832-4008-B2BB-3C0F03B39DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCBE7C36-F832-4008-B2BB-3C0F03B39DD4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{223BEF8E-04F7-4568-AE9B-AD38EA455037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{223BEF8E-04F7-4568-AE9B-AD38EA455037}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{223BEF8E-04F7-4568-AE9B-AD38EA455037}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{223BEF8E-04F7-4568-AE9B-AD38EA455037}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

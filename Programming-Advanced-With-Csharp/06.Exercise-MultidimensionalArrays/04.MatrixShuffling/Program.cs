@@ -10,20 +10,20 @@ namespace _04.MatrixShuffling
             int sizeRows = input[0];
             int sizeCol = input[1];
 
-            int[][] matrix = new int[sizeRows][];
+            string[][] matrix = new string[sizeRows][];
 
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
-                int[] inputNumbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
-
-                matrix[row] = new int[sizeCol];
+                string[] inputNumbers = Console.ReadLine().Split();
+                
+                matrix[row] = new string[sizeCol];
                 for (int col = 0; col < sizeCol; col++)
                 {
                     matrix[row][col] = inputNumbers[col];
                 }
             }
 
-            string command = Console.ReadLine();
+            string command;
             while ((command = Console.ReadLine()) != "END")
             {
                 string[] arguments = command.Split();
@@ -36,21 +36,28 @@ namespace _04.MatrixShuffling
                     int row2 = int.Parse(arguments[3]);
                     int col2 = int.Parse(arguments[4]);
 
+                    if (row1 < 0 || row1 > sizeRows || row2 < 0 || row2 > sizeRows || col1 < 0 || col1 > sizeCol || col2 < 0 || col2 > sizeCol)
+                    {
+                        Console.WriteLine("Invalid input!");
+                        continue;
+                    }
 
                     (matrix[row2][col2], matrix[row1][col1]) = (matrix[row1][col1], matrix[row2][col2]);
+
+                    for (int row = 0; row < sizeRows; row++)
+                    {
+                        for (int col = 0; col < sizeCol; col++)
+                        {
+                            Console.Write($"{matrix[row][col]} ");
+                        }
+                        Console.WriteLine();
+                    }
                 }
                 else
                 {
                     Console.WriteLine("Invalid input!");
                 }
-
-
-
-
             }
-
-
-            //TO BE SOLVED
         }
     }
 }
