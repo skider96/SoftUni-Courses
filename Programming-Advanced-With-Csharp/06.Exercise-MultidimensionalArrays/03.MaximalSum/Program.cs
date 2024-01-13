@@ -22,10 +22,6 @@
                 }
             }
 
-
-
-            int num = matrix.GetLength(0);
-            int num2 = matrix.GetLength(1);
             int sumOfAll = 0;
 
             int topLeft = 0;
@@ -44,6 +40,8 @@
             int sumBiggest = 0;
             string biggestNumbersMatrix = String.Empty;
 
+            int num = matrix.GetLength(0);
+            int num2 = matrix.GetLength(1);
             for (int row = 0; row < rowSize - 2; row++)
             {
                 for (int col = 0; col < columnSize - 2; col++)
@@ -75,9 +73,10 @@
                 }
             }
 
-
             Console.WriteLine(biggestNumbersMatrix);
 
+
+            // TO BE SOLVED...
         }
     }
 }
