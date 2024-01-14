@@ -57,7 +57,8 @@
                         middleRight = matrix[row + 1][col + 2];
 
                         bottomLeft = matrix[row + 2][col];
-                        bottomCenter = matrix[row + 2][col + 2];
+                        bottomCenter = matrix[row + 2][col + 1];
+                        bottomRight = matrix[row + 2][col + 2];
 
                         if (sumCurrentMatrix > sumBiggest)
                         {
