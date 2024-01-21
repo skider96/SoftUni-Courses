@@ -4,8 +4,17 @@
     {
         static void Main(string[] args)
         {
+            int rows = int.Parse(Console.ReadLine());
 
+            for (int i = 0; i < rows; i++)
+            {
+                
+            }
+
+<<<<<<< Updated upstream
           int rows = int.Parse(Console.Readline());
+=======
+>>>>>>> Stashed changes
 
            char[][] matrix = new char[sizeRows][];
 for(int row = 0; row < rows; row++; ) {
