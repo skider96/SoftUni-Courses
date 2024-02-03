@@ -6,24 +6,34 @@ namespace DefiningClasses
     {
         static void Main(string[] args)
         {
-            //Person firstPerson = new()
-            //{
-            //    Age = 20,
-            //    Name = "Peter"
-            //};
+          Family family = new();
 
-            //Person secondPerson = new();
-
-            //Person thirdPerson = new("Ivan", 25);
             int number = int.Parse(Console.ReadLine());
+
+            Person oldestPerson = new Person();
 
             for (int i = 0; i < number; i++)
             {
-                
+                string[] input = Console.ReadLine().Split().ToArray();
+
+                string name = input[0];
+                int age = int.Parse(input[1]);
+
+                Person member = new(name, age);
+
+                family.AddMember(member);
             }
 
+          oldestPerson =  family.GetOldestMember();
 
-            //TODO
+          Console.WriteLine($"{oldestPerson.Name} {oldestPerson.Age}");
         }
     }
+   
 }
+/*
+3
+Peter 3
+George 4
+Annie 5
+ */

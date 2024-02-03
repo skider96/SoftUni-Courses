@@ -10,21 +10,20 @@ namespace DefiningClasses
     {
         private List<Person> people;
 
-        public List<Person> People { get; set; }
 
         public Family()
         {
-            People = people;
+             people = new List<Person>();
         }
 
         public void AddMember(Person member)
         {
-            People.Add(member);
+            people.Add(member);
         }
 
-        public Person GetOldestMember(List<Person> People)
+        public Person GetOldestMember()
         {
-           Person oldestPerson = People.OrderByDescending(p => p.Age).First();
+           Person oldestPerson = people.OrderByDescending(p => p.Age).First();
 
         return oldestPerson;
         }
