@@ -4,22 +4,27 @@
     {
         static void Main(string[] args)
         {
-            // Using the Person class, write a program that reads from the console N lines of personal information and then prints all people, whose age is more than 30 years, sorted in alphabetical order.
+            List<Person> personList = new List<Person>();
 
             int n = int.Parse(Console.ReadLine());
+
             for (int i = 0; i < n; i++)
             {
                 string[] input = Console.ReadLine().Split().ToArray();
+
+                string name = input[0];
+                int age = int.Parse(input[1]);
+
+                Person person = new Person(name, age);
+                personList.Add(person);
             }
 
+            personList = personList.FindAll(a => a.Age > 30).OrderBy(p => p.Name).ToList();
 
-            //TODO
+            foreach (var person in personList)
+            {
+                Console.WriteLine($"{person.Name} - {person.Age}");
+            }
         }
     }
 }
-/*
-3
-Peter 12
-Sam 31
-Ivan 48
- */

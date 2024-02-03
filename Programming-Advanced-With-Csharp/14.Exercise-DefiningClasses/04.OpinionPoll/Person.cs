@@ -10,10 +10,13 @@ namespace OpinionPoll
     {
         private string name;
         private int age;
+        private List<Person> people;
+
 
         public string Name { get; set; }
 
         public int Age { get; set; }
+
 
         public Person() //"No name" and age = 1
         {
