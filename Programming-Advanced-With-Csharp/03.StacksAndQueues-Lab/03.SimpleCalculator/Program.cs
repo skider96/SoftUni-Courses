@@ -24,7 +24,6 @@
                 else
                 {
                     firstNubmer = int.Parse(stack.Pop());
-
                 }
                 char operation = char.Parse(stack.Pop());
                 int secondNumber = int.Parse(stack.Pop());
