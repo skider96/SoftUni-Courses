@@ -1,6 +1,7 @@
 ﻿using static System.Net.Mime.MediaTypeNames;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
+using System.Reflection.Metadata.Ecma335;
 
 namespace _04.SymbolInMatrix
 {
@@ -8,13 +9,34 @@ namespace _04.SymbolInMatrix
     {
         static void Main(string[] args)
         {
-            //Create a program that reads N, a number representing rows and cols of a matrix. On the next N lines, you will receive rows of the matrix.Each row consists of ASCII characters. After that, you will receive a symbol. Find the first occurrence of that symbol in the matrix and print its position in the format: "({row}, {col})".If there is no such symbol, print an error message "{symbol} does not occur in the matrix".
+            int size = int.Parse(Console.ReadLine());
 
+            char[,] matrix = new char[size, size];
+            for (int row = 0; row < size; row++)
+            {
+                char[] input = Console.ReadLine().ToCharArray(0, size);
 
+                for (int col = 0; col < size; col++)
+                {
+                    matrix[row, col] = input[col];
+                }
+            }
 
+            char symbol = char.Parse(Console.ReadLine());
 
+            for (int row = 0; row < size; row++)
+            {
+                for (int col = 0; col < size; col++)
+                {
+                    if (matrix[row, col] == symbol)
+                    {
+                        Console.WriteLine($"({row}, {col})");
+                        return;
+                    }
+                }
+            }
 
-            //TODO
+            Console.WriteLine($"{symbol} does not occur in the matrix");
         }
     }
 }
