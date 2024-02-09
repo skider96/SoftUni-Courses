@@ -22,7 +22,7 @@ namespace _01.Zadacha
                 string[] arguments = command.Split().ToArray();
 
                 string action = arguments[0];
-                if (arguments.Length == 3 && action == "Change" )
+                if (arguments.Length == 3 && action == "Change")
                 {
                     string chars = arguments[1];
                     string replacement = arguments[2];
@@ -54,13 +54,12 @@ namespace _01.Zadacha
                 }
                 if (arguments.Length == 3 && action == "Cut")
                 {
-                   int startIndex = int.Parse(arguments[1]);
+                    int startIndex = int.Parse(arguments[1]);
                     int count = int.Parse(arguments[2]);
                     string cutSubstring = inputedString.Substring(startIndex, count);
                     Console.WriteLine(cutSubstring);
                 }
             }
-
         }
     }
 }

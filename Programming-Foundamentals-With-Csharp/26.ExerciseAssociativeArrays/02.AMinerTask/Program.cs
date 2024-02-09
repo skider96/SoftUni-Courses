@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Dictionary<string, int> resourse = new Dictionary<string, int>();
+            Dictionary<string, int> resource = new Dictionary<string, int>();
             string command;
             int i = 0;
             string previousCommand = "";
@@ -12,27 +12,26 @@
             {
                 if (i % 2 == 0)
                 {
-                    if (resourse.ContainsKey(command))
+                    if (resource.ContainsKey(command))
                     {
                         previousCommand = command; 
                         i++;
                         continue;
                     }
-                    else resourse.Add(command, 0);
+                    resource.Add(command, 0);
                 }
                 else
                 {
-                    if (resourse.ContainsKey(previousCommand))
+                    if (resource.ContainsKey(previousCommand))
                     {
-                        resourse[previousCommand] += int.Parse(command);
+                        resource[previousCommand] += int.Parse(command);
                     }
-                  
                 }
                 previousCommand = command;
                 i++;
             }
 
-            foreach (var kvp in resourse)
+            foreach (var kvp in resource)
             {
                 Console.WriteLine($"{kvp.Key} -> {kvp.Value}");
             }

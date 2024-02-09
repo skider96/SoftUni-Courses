@@ -38,6 +38,5 @@ namespace _04.Students
             LastName = lastName;
             Grade = grade;
         }
-        
     }
 }

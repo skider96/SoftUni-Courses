@@ -38,7 +38,6 @@ namespace _02.Articles
 
             Console.WriteLine(myArticle);
         }
-
     }
 
     class Article
@@ -76,5 +75,4 @@ namespace _02.Articles
             return $"{Title} - {Content}: {Author}";
         }
     }
-
 }

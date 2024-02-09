@@ -33,7 +33,6 @@ namespace _05.TeamworkProjects
                 }
             }
 
-
             string command;
             while ((command = Console.ReadLine()) != "end of assignment")
             {
@@ -64,7 +63,6 @@ namespace _05.TeamworkProjects
                 .ToList();
 
             disbandedTeamsList = disbandedTeamsList.OrderBy(t => t.TeamName).ToList();
-
 
             foreach (var team in teams)
             {

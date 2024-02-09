@@ -8,7 +8,6 @@ namespace _02.Zadacha
         {
             int lines = int.Parse(Console.ReadLine());
             string pattern = @"^(?<dolar>^\$|^\%)(?<tag>[A-z][a-z]{2,})\1: \[(?<firstNumber>\d*)]\|\[(?<secondNumber>\d*)]\|\[(?<thirdNumber>\d*)]\|$";
-
             
             Regex regex = new Regex(pattern);
             for (int i = 0; i < lines; i++)

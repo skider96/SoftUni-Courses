@@ -68,7 +68,6 @@ namespace _06.VehicleCatalogue
             {
                 Console.WriteLine($"Cars have average horsepower of: {(carAvHp / carAppearance):f2}.");
                 Console.WriteLine($"Trucks have average horsepower of: {(truckAvHp / truckAppearance):f2}.");
-
             }
         }
     }

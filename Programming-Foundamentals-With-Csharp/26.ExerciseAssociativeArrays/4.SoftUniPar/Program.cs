@@ -29,7 +29,6 @@
                 {
                     if (!users.ContainsKey(username))
                     {
-
                         users.Add(username, userInfo);
                         Console.WriteLine($"{username} registered {licensePlate} successfully");
                     }
@@ -69,12 +68,10 @@
             UserName = userName;
             LicensePlate = licensePlate;
         }
-
     }
 }
 
 /*
- *
 5
 register John CS1234JS
 register George JAVA123S

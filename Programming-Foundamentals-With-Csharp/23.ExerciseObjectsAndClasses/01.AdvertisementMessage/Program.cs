@@ -35,14 +35,11 @@
             public static List<string> city = new List<string>()
             {
                 "Diana", "Petya", "Stella", "Elena", "Katya", "Iva", "Annie", "Eva"
-
             };
             public static List<string> Event = new List<string>()
             {
                 "Burgas", "Sofia", "Plovdiv", "Varna", "Ruse"
-
             };
-
         }
     }
 }

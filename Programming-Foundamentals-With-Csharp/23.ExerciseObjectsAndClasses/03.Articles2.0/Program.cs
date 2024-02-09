@@ -1,30 +1,28 @@
-﻿namespace _03.Articles2._0
+﻿namespace _03.Articles2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            
-           List<Article> myArticleList = new List<Article>();
-            
+
+            List<Article> myArticleList = new List<Article>();
+
             for (int i = 0; i < n; i++)
             {
                 string[] inputBreaking = Console.ReadLine().Split(", ");
                 string title = inputBreaking[0];
                 string content = inputBreaking[1];
                 string author = inputBreaking[2];
-                
+
                 myArticleList.Add(new Article(title, content, author));
             }
-        
 
             foreach (Article article in myArticleList)
             {
-                   System.Console.WriteLine(article);               
+                System.Console.WriteLine(article);
             }
         }
-
     }
 
     class Article
@@ -35,7 +33,6 @@
 
         public string Author { get; set; }
 
-       
         public Article(string title, string content, string author)
         {
             Title = title;
@@ -48,5 +45,4 @@
             return $"{Title} - {Content}: {Author}";
         }
     }
-
 }
