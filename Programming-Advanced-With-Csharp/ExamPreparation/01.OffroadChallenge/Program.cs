@@ -6,24 +6,15 @@ namespace _01.OffroadChallenge
     {
         static void Main(string[] args)
         {
-            int[] initialFuelInput = Console.ReadLine()
+            Stack<int> initialFuel = new(Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
-
-            int[] consumptionIndexesInput = Console.ReadLine()
+                .Select(int.Parse));
+            Queue<int> consumptionIndexes = new(Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
-
-            int[] neededQuantityInput = Console.ReadLine()
+                .Select(int.Parse));
+            Queue<int> neededQuantity = new(Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
-
-            Stack<int> initialFuel = new(initialFuelInput);
-            Queue<int> consumptionIndexes = new(consumptionIndexesInput);
-            Queue<int> neededQuantity = new(neededQuantityInput);
+                .Select(int.Parse));
 
             List<string> altitudes = new();
             int counterOfAltitudes = 0;
