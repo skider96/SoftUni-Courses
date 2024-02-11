@@ -6,12 +6,9 @@ function sum(number) {
     for (let i = 0; i < stringNumber.length; i++) {
         let currentNumber = stringNumber[i];
 
-        if (currentNumber % 2 === 0) {
-            evenSum += parseInt(currentNumber);
-        }
-        else {
-            oddSum += parseInt(currentNumber);
-        }
+        (currentNumber % 2 === 0)
+            ? evenSum += parseInt(currentNumber)
+            : oddSum += parseInt(currentNumber)
     }
     console.log(`Odd sum = ${oddSum}, Even sum = ${evenSum}`);
 }
