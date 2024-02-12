@@ -42,7 +42,6 @@ namespace MailClient
         public string GetLongestMessage()
         {
             var longestMail = Inbox.MaxBy(b => b.Body.Length);
-
             return longestMail.ToString();
         }
 
@@ -54,8 +53,7 @@ namespace MailClient
             {
                 sb.AppendLine(mail.ToString());
             }
-
-            return sb.ToString();
+            return sb.ToString().TrimEnd();
         }
     }
 }

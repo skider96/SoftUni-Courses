@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.FishingCompetition", "02
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailClient", "03.MailClient\MailClient.csproj", "{D4774DDC-0013-4A67-95F0-D4202A77CE09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo", "demo\demo.csproj", "{B12D16A0-AD3B-427A-832D-2C304E6F8F3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo", "demo\demo.csproj", "{B12D16A0-AD3B-427A-832D-2C304E6F8F3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.TempleOfDoom", "04.TempleOfDoom\04.TempleOfDoom.csproj", "{A70D1513-5504-465A-88D3-493C1B5F1FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.MouseInTheKitchen", "05.MouseInTheKitchen\05.MouseInTheKitchen.csproj", "{AAF9A956-3E78-4617-B1ED-52C52C1D8451}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{B12D16A0-AD3B-427A-832D-2C304E6F8F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B12D16A0-AD3B-427A-832D-2C304E6F8F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B12D16A0-AD3B-427A-832D-2C304E6F8F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70D1513-5504-465A-88D3-493C1B5F1FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70D1513-5504-465A-88D3-493C1B5F1FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70D1513-5504-465A-88D3-493C1B5F1FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70D1513-5504-465A-88D3-493C1B5F1FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF9A956-3E78-4617-B1ED-52C52C1D8451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF9A956-3E78-4617-B1ED-52C52C1D8451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF9A956-3E78-4617-B1ED-52C52C1D8451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF9A956-3E78-4617-B1ED-52C52C1D8451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
