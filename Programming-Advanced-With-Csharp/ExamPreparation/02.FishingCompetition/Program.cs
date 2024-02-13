@@ -136,7 +136,7 @@
                     }
                     else
                     {
-                        matrix[rowOfShip, colOfShip] = "-"; //3th
+                        matrix[rowOfShip, colOfShip] = "-"; 
                         colOfShip = squareMatrixSize - 1;
                         if (matrix[rowOfShip, colOfShip] == "-")
                         {
