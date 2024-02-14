@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailClient", "03.MailClient
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo", "demo\demo.csproj", "{B12D16A0-AD3B-427A-832D-2C304E6F8F3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.TempleOfDoom", "04.TempleOfDoom\04.TempleOfDoom.csproj", "{A70D1513-5504-465A-88D3-493C1B5F1FD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.TempleOfDoom", "04.TempleOfDoom\04.TempleOfDoom.csproj", "{A70D1513-5504-465A-88D3-493C1B5F1FD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.MouseInTheKitchen", "05.MouseInTheKitchen\05.MouseInTheKitchen.csproj", "{AAF9A956-3E78-4617-B1ED-52C52C1D8451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.MouseInTheKitchen", "05.MouseInTheKitchen\05.MouseInTheKitchen.csproj", "{AAF9A956-3E78-4617-B1ED-52C52C1D8451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.TilesMaster", "06.TilesMaster\06.TilesMaster.csproj", "{9416C8A3-B6F0-4701-A75E-EBCCA3A2D05B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{AAF9A956-3E78-4617-B1ED-52C52C1D8451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAF9A956-3E78-4617-B1ED-52C52C1D8451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAF9A956-3E78-4617-B1ED-52C52C1D8451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9416C8A3-B6F0-4701-A75E-EBCCA3A2D05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9416C8A3-B6F0-4701-A75E-EBCCA3A2D05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9416C8A3-B6F0-4701-A75E-EBCCA3A2D05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9416C8A3-B6F0-4701-A75E-EBCCA3A2D05B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
