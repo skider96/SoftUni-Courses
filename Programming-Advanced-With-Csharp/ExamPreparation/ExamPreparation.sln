@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.TempleOfDoom", "04.Templ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.MouseInTheKitchen", "05.MouseInTheKitchen\05.MouseInTheKitchen.csproj", "{AAF9A956-3E78-4617-B1ED-52C52C1D8451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.TilesMaster", "06.TilesMaster\06.TilesMaster.csproj", "{9416C8A3-B6F0-4701-A75E-EBCCA3A2D05B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.TilesMaster", "06.TilesMaster\06.TilesMaster.csproj", "{9416C8A3-B6F0-4701-A75E-EBCCA3A2D05B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Renovators", "07.RenovatorsSkeleton\Renovators.csproj", "{83052CB8-90FB-482A-A562-EC2DFD121D99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{9416C8A3-B6F0-4701-A75E-EBCCA3A2D05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9416C8A3-B6F0-4701-A75E-EBCCA3A2D05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9416C8A3-B6F0-4701-A75E-EBCCA3A2D05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83052CB8-90FB-482A-A562-EC2DFD121D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83052CB8-90FB-482A-A562-EC2DFD121D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83052CB8-90FB-482A-A562-EC2DFD121D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83052CB8-90FB-482A-A562-EC2DFD121D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
