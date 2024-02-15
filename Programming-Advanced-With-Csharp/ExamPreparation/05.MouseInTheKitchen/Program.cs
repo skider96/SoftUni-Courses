@@ -28,7 +28,6 @@
                 }
             }
 
-
             int lastRowPosition = 0;
             int lastColPosition = 0;
             string command;

@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+
+
+        }
+
+        //ADDED BEFORE
+        public static IEnumerable<int> InputFromConsole()
+        {
+            return Console.ReadLine()
+                .Split(",", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse);
         }
     }
 }

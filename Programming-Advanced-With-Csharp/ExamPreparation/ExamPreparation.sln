@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.TilesMaster", "06.TilesM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Renovators", "07.RenovatorsSkeleton\Renovators.csproj", "{83052CB8-90FB-482A-A562-EC2DFD121D99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.MonsterExtermination", "08.MonsterExtermination\08.MonsterExtermination.csproj", "{C5BC8D88-DE26-46E1-9127-9DE6C179438C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.MonsterExtermination", "08.MonsterExtermination\08.MonsterExtermination.csproj", "{C5BC8D88-DE26-46E1-9127-9DE6C179438C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.DeliveryBoy", "09.DeliveryBoy\09.DeliveryBoy.csproj", "{9EA62B0F-415F-4D50-BD0B-FC62B97E9228}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{C5BC8D88-DE26-46E1-9127-9DE6C179438C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5BC8D88-DE26-46E1-9127-9DE6C179438C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5BC8D88-DE26-46E1-9127-9DE6C179438C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA62B0F-415F-4D50-BD0B-FC62B97E9228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA62B0F-415F-4D50-BD0B-FC62B97E9228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA62B0F-415F-4D50-BD0B-FC62B97E9228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA62B0F-415F-4D50-BD0B-FC62B97E9228}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
