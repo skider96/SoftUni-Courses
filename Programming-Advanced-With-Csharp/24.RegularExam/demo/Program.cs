@@ -6,7 +6,6 @@
         {
         }
 
-
         public static IEnumerable<int> InputFromConsole()
         {
             return Console.ReadLine()
