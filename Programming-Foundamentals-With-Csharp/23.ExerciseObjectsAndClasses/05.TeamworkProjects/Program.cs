@@ -79,17 +79,17 @@ namespace _05.TeamworkProjects
 
     class Teams
     {
-        public string TeamName { get; set; }
-
-        public string Creator { get; set; }
-
-        public List<string> Member { get; set; }
-
         public Teams(string teamName, string creator)
         {
             TeamName = teamName;
             Creator = creator;
             Member = new List<string>();
         }
+        public string TeamName { get; set; }
+
+        public string Creator { get; set; }
+
+        public List<string> Member { get; set; }
+
     }
 }

@@ -30,6 +30,5 @@ nd decimal place.*/
 
         public double StudentGrades { get; set; }
 
-
     }
 }

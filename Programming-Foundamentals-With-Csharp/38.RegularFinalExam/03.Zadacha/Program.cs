@@ -46,8 +46,8 @@
                 }
             }
             string name = "George";
-            name[2] = "m";
-            System.Console.WriteLine(name[2]);
+            name[2] = 'm';
+            Console.WriteLine(name[2]);
         }
     }
 }

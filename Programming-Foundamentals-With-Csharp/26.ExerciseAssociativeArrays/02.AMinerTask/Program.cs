@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Dictionary<string, int> resource = new Dictionary<string, int>();
+            Dictionary<string, int> resource = new();
             string command;
             int i = 0;
             string previousCommand = "";

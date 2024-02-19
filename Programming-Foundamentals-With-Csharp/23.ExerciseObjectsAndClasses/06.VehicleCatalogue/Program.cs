@@ -11,7 +11,7 @@ namespace _06.VehicleCatalogue
             //"{typeOfVehicle} {model} {color} {horsepower}"
 
             List<Car> cars = new List<Car>();
-            List<string> listCarTypes = new List<string>();
+            List<string> listCarTypes = new ();
             string command;
             while ((command = Console.ReadLine()) != "End")
             {
@@ -30,11 +30,11 @@ namespace _06.VehicleCatalogue
             {
                 Car car = new Car(command);
 
-                for (int i = 0; i < cars.Count; i++)
+                foreach (var vehicle in cars)
                 {
-                    if (cars[i].Model == command)
+                    if (vehicle.Model == command)
                     {
-                        Console.WriteLine(cars[i]);
+                        Console.WriteLine(vehicle);
                     }
                 }
             }
@@ -74,11 +74,6 @@ namespace _06.VehicleCatalogue
 
     class Car
     {
-        public string TypeOfVehicle { get; set; }
-        public string Model { get; set; }
-        public string Color { get; set; }
-        public int Horsepower { get; set; }
-
         public Car(string argType, string argModel, string argColor, int argHP)
         {
             var firstLetter = FirstLetterCapitalize(argType);
@@ -88,6 +83,15 @@ namespace _06.VehicleCatalogue
             Color = argColor;
             Horsepower = argHP;
         }
+        public Car(string argModel)
+        {
+            Model = argModel;
+        }
+        public string TypeOfVehicle { get; set; }
+        public string Model { get; set; }
+        public string Color { get; set; }
+        public int Horsepower { get; set; }
+
 
         private static char FirstLetterCapitalize(string argType)
         {
@@ -96,10 +100,6 @@ namespace _06.VehicleCatalogue
             return firstLetter;
         }
 
-        public Car(string argModel)
-        {
-            Model = argModel;
-        }
         public override string ToString()
         {
             return $"Type: {TypeOfVehicle}\nModel: {Model}\nColor: {Color}\nHorsepower: {Horsepower}";

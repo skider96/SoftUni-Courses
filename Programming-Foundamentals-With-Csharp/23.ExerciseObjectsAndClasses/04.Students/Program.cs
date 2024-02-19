@@ -7,7 +7,7 @@ namespace _04.Students
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            List<Students> studentsList = new List<Students>();
+            List<Students> studentsList = new();
 
             for (var i = 0; i < n; i++)
             {
@@ -22,21 +22,21 @@ namespace _04.Students
 
             foreach (var student in studentsList)
             {
-                System.Console.WriteLine($"{student.FirstName} {student.LastName}: {student.Grade:f2}");
+                Console.WriteLine($"{student.FirstName} {student.LastName}: {student.Grade:f2}");
             }
         }
     }
     class Students
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public float Grade { get; set; }
-
         public Students(string firstName, string lastName, float grade)
         {
             FirstName = firstName;
             LastName = lastName;
             Grade = grade;
         }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public float Grade { get; set; }
+
     }
 }

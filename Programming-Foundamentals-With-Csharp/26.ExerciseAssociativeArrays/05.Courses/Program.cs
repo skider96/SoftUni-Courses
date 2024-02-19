@@ -5,9 +5,9 @@ namespace _05.Courses
     {
         static void Main(string[] args)
         {
-            Dictionary<string, List<string>> dictionaryCourses = new Dictionary<string, List<string>>();
+            Dictionary<string, List<string>> dictionaryCourses = new();
             string command;
-            List<string> studentsNameList = new List<string>();
+            List<string> studentsNameList = new();
             while ((command = Console.ReadLine()) != "end")
             {
                 string[] arguments = command.Split(" : ");

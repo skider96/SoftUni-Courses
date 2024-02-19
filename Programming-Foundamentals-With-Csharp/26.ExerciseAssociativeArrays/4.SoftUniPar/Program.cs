@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             int usersCount = int.Parse(Console.ReadLine());
-            Dictionary<string, User> users = new Dictionary<string, User>();
+            Dictionary<string, User> users = new();
 
             for (int i = 0; i < usersCount; i++)
             {
@@ -21,7 +21,6 @@
                     licensePlate = arguments[2];
                 }
 
-                // 
                 // "{username} registered {licensePlateNumber} successfully"
                 User userInfo = new User(username, licensePlate);
 
@@ -59,15 +58,13 @@
     }
     public class User
     {
-        public string UserName { get; set; }
-
-        public string LicensePlate { get; set; }
-
         public User(string userName, string licensePlate)
         {
             UserName = userName;
             LicensePlate = licensePlate;
         }
+        public string UserName { get; set; }
+        public string LicensePlate { get; set; }
     }
 }
 

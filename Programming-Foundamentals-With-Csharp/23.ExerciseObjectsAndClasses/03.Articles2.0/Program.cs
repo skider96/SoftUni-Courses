@@ -20,25 +20,25 @@
 
             foreach (Article article in myArticleList)
             {
-                System.Console.WriteLine(article);
+                Console.WriteLine(article);
             }
         }
     }
 
     class Article
     {
-        public string Title { get; set; }
-
-        public string Content { get; set; }
-
-        public string Author { get; set; }
-
         public Article(string title, string content, string author)
         {
             Title = title;
             Content = content;
             Author = author;
         }
+        public string Title { get; set; }
+
+        public string Content { get; set; }
+
+        public string Author { get; set; }
+
 
         public override string ToString()
         {
