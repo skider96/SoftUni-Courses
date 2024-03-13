@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Double = System.Double;
 
 namespace _01.ClassBoxData
 {
@@ -57,20 +56,15 @@ namespace _01.ClassBoxData
             }
         }
 
-        public double SurfaceArea()
-        {
-            return 2 * Length * Width + LateralSurfaceArea();
-        }
+        double SurfaceArea()
+        => 2 * Length * Width + LateralSurfaceArea();
 
-        public double LateralSurfaceArea()
-        {
-            return 2 * Length * Height + 2 * Width * Height;
-        }
+        double LateralSurfaceArea()
+        => 2 * Length * Height + 2 * Width * Height;
+        
+        double Volume()
+        => Length * Width * Height;
 
-        public double Volume()
-        {
-            return Length * Width * Height;
-        }
 
         public override string ToString()
         => $"Surface Area - {SurfaceArea():f2}\nLateral Surface Area - {LateralSurfaceArea():f2}\nVolume - {Volume():f2}";
