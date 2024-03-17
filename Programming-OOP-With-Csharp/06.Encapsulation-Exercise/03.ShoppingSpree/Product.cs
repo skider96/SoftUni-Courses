@@ -25,7 +25,7 @@ namespace _03.ShoppingSpree
                {
                    throw new ArgumentException("Name cannot be empty");
                }
-               Name = value;
+               name = value;
            }
        }
 
@@ -38,7 +38,7 @@ namespace _03.ShoppingSpree
                {
                    throw new ArgumentException("Money cannot be negative");
                }
-               Cost = value;
+               cost = value;
            }
        }
     }

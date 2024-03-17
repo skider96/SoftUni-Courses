@@ -10,14 +10,15 @@ namespace _03.ShoppingSpree
     {
         private string name;
         private decimal money;
-        private List<Product> bagOfProducts;
+        private List<string> bagOfProducts;
 
-        public Person()
+        public Person(string name, decimal money)
         {
             Name = name;
             Money = money;
-            bagOfProducts = new List<Product>();
+            bagOfProducts = new List<string>();
         }
+
 
         public string Name
         {
@@ -28,7 +29,7 @@ namespace _03.ShoppingSpree
                 {
                     throw new ArgumentException("Name cannot be empty");
                 }
-                Name = value;
+                name = value;
             }
         }
 
@@ -41,10 +42,12 @@ namespace _03.ShoppingSpree
                 {
                     throw new ArgumentException("Money cannot be negative");
                 }
-                Money = value;
+                money = value;
             }
         }
 
-        public List<Product> BagOfProducts { get; set; }
+
+        public List<string> BagOfProducts => bagOfProducts;
+
     }
 }
