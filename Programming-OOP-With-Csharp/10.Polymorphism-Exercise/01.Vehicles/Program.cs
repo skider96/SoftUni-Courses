@@ -1,4 +1,5 @@
-﻿namespace _01.Person
+﻿
+namespace _01.Vehicles
 {
     internal class Program
     {
