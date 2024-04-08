@@ -40,9 +40,6 @@
         public string Author { get; set; }
 
 
-        public override string ToString()
-        {
-            return $"{Title} - {Content}: {Author}";
-        }
+        public override string ToString() => $"{Title} - {Content}: {Author}";
     }
 }

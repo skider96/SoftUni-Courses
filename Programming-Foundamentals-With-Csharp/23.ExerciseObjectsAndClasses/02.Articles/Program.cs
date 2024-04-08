@@ -55,24 +55,12 @@ namespace _02.Articles
         public string Author { get; set; }
 
 
-        public void editContent(string editCcontent)
-        {
-            Content = editCcontent;
-        }
+        public void editContent(string editCcontent) => Content = editCcontent;
 
-        public void ChangeAuthor(string changedAuthor)
-        {
-            Author = changedAuthor;
-        }
+        public void ChangeAuthor(string changedAuthor) => Author = changedAuthor;
 
-        public void  RenameNewTitle(string changedTitle)
-        {
-           Title = changedTitle;
-        }
+        public void RenameNewTitle(string changedTitle) => Title = changedTitle;
 
-        public override string ToString()
-        {
-            return $"{Title} - {Content}: {Author}";
-        }
+        public override string ToString() => $"{Title} - {Content}: {Author}";
     }
 }

@@ -100,10 +100,7 @@ namespace _06.VehicleCatalogue
             return firstLetter;
         }
 
-        public override string ToString()
-        {
-            return $"Type: {TypeOfVehicle}\nModel: {Model}\nColor: {Color}\nHorsepower: {Horsepower}";
-        }
+        public override string ToString() => $"Type: {TypeOfVehicle}\nModel: {Model}\nColor: {Color}\nHorsepower: {Horsepower}";
     }
 }
 /*
